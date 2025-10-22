@@ -18,7 +18,7 @@ public class Movie {
     }
 
     public String getDetails() {
-        return "Title:" + title + "\n Genres:" + genres + "\nRating:" + rating + "Stars";
+        return "Title:" + title + "\nGenres:" + genres + "\nRating:" + rating + "Stars";
 
     }
 

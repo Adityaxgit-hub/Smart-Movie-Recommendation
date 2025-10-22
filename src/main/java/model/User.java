@@ -6,9 +6,9 @@ public class User {
 
     private String name;
     private List<String> pref;
-    private List<String> Watched;
+    private List<Movie> Watched;
 
-    public User(String name, List<String> pref, List<String> Watched) {
+    public User(String name, List<String> pref, List<Movie> Watched) {
         this.name = name;
         this.pref = pref;
         this.Watched = Watched;
@@ -22,7 +22,7 @@ public class User {
         return pref;
     }
 
-    public List<String> getWatched() {
+    public List<Movie> getWatched() {
 
         return Watched;
     }
