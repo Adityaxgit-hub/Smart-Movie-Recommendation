@@ -36,4 +36,5 @@ public class Movie {
 
     public String getOverview() {
         return overview;
-    }}
+    }
+}
