@@ -23,7 +23,6 @@ public class User {
     }
 
     public List<Movie> getWatched() {
-
         return Watched;
     }
 

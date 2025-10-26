@@ -1,7 +1,6 @@
 package model;
 
 import java.util.Arrays;
-import java.util.List;
 
 public class TestModels {
     public static void main(String[] args) {
