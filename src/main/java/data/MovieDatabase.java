@@ -2,12 +2,11 @@ package data;
 
 import model.Movie;
 import java.util.*;
-
+//A database replica that stores all the movies(hard coded) available;
 public class MovieDatabase {
 
     public static List<Movie> getAllMovies() {
         List<Movie> movies = new ArrayList<>();
-
         // ---- Sci-Fi ----
         movies.add(new Movie("Inception", Arrays.asList("Sci-Fi", "Thriller"), 8.8, "A thief who steals dreams."));
         movies.add(new Movie("Interstellar", Arrays.asList("Sci-Fi", "Drama"), 8.6, "Journey beyond the stars."));
