@@ -33,7 +33,7 @@ public class MovieDatabase {
 
         // ---- Drama ----
         movies.add(new Movie("The Shawshank Redemption", Arrays.asList("Drama"), 9.3, "Hope inside prison walls."));
-        movies.add(new Movie("Forrest Gump", Arrays.asList("Drama", "Romance"), 8.8, "Life through Forrest’s eyes."));
+        movies.add(new Movie("Forrest Gump", Arrays.asList("Drama", "Romance"), 8.8, "Life through Forrest's eyes."));
         movies.add(new Movie("Fight Club", Arrays.asList("Drama", "Thriller"), 8.8, "An underground revolution."));
         movies.add(new Movie("The Green Mile", Arrays.asList("Drama", "Fantasy"), 8.6, "A miracle on death row."));
         movies.add(new Movie("The Pursuit of Happyness", Arrays.asList("Drama"), 8.0, "Struggles of a single father."));
