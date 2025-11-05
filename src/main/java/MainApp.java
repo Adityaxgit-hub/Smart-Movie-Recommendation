@@ -34,7 +34,7 @@ public class MainApp {
             for (Movie m : recommendations) {
                 if(i>5)
                     break;
-                System.out.println(i+"."+ m.getTitle() + " (" + m.getRating() + ")\n"+"Overview:\n"+m.getOverview()+"\n");
+                System.out.println(i+"."+ m.getTitle() + " (" + m.getRating() + "/10)\n"+"Overview:\n"+m.getOverview()+"\n");
                 i++;
             }
         }
