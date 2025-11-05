@@ -15,6 +15,7 @@ public class MovieFetcher {
             HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
             return response.body();
         } catch (Exception e) {
+            System.err.println(e.getMessage());
             e.printStackTrace();
             return null;
         }
