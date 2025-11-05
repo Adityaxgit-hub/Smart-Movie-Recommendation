@@ -11,11 +11,14 @@ public class Recommender {
         // loops through all the movies in the database;
         for (Movie movie : allMovies) {
             // loops through all of user's preferred genres to check recommendability;
+            inner:
             for (String prefGenre : user.getpref()) {
                 // adds the movie to recommendation list if it belongs to the user's preferred genre;
-                if (movie.getgenres().contains(prefGenre)) {
-                    recommend.add(movie);
-                    break;
+                for(String mov : movie.getgenres()){
+                    if (mov.equalsIgnoreCase(prefGenre)) {
+                        recommend.add(movie);
+                        break inner;
+                    }
                 }
             }
         }

@@ -26,7 +26,7 @@ public class MainApp {
         // stores the recommendation list;
         List<Movie> recommendations = recommender.recommendMovies(user, allMovies);
         // Displays the movies recommended by the recommender;
-        System.out.println("\nTop 5 recommendations for " + user.getName() + ":\n");
+        System.out.println("Top 5 recommendations for " + user.getName() + ":\n");
         if (recommendations.isEmpty()) {
             System.out.println("No movies found for your preferences.");
         } else {
