@@ -20,7 +20,7 @@ public class Movie {
 
     // gets complete details of the selected movie;
     public String getDetails() {
-        return "Title:" + title + "\nGenres:" + genres + "\nRating:" + rating + "Stars";
+        return "Title:" + title + "\nGenres:" + genres + "\nRating:" + rating + "/10";
 
     }
 

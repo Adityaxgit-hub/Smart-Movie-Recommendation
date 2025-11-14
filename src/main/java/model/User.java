@@ -6,11 +6,11 @@ import java.util.*;
 public class User {
 
     private String name;
-    private List<String> pref;
-    private List<Movie> Watched;
+    private Map<String, Double> pref;
+    private List<String> Watched;
 
     // constructor to initialise user data;
-    public User(String name, List<String> pref, List<Movie> Watched) {
+    public User(String name, Map<String,Double> pref, List<String> Watched) {
         this.name = name;
         this.pref = pref;
         this.Watched = Watched;
@@ -22,12 +22,12 @@ public class User {
     }
 
     // gets the genre preferences of the user;
-    public List<String> getpref() {
+    public Map<String,Double> getpref() {
         return pref;
     }
 
     // gets the watch history of the user;
-    public List<Movie> getWatched() {
+    public List<String> getWatched() {
         return Watched;
     }
 
