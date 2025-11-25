@@ -16,13 +16,10 @@ public class TestModels {
                     "Thriller",8.5
                 ),
                 Arrays.<String>asList(m1.getTitle()));
-        // creates a rating class object that rates the references movie;
-        Rating r1 = new Rating(m1, 9.5);
         // printing details of the models initialised prior;
         System.out.println("Movie details: \n" + m1.getDetails());
         System.out.println();
         System.out.println("User details: \n" + u1.getDetails());
         System.out.println();
-        System.out.println("Rating details: \n" + r1.getDetails());
     }
 }
