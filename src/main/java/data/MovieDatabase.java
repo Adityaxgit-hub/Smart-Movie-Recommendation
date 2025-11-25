@@ -2,7 +2,7 @@ package data;
 
 import model.Movie;
 import java.util.*;
-//A database replica that stores all the movies(hard coded) available;
+//Database replica that stores all the movies(hard coded) available;
 public class MovieDatabase {
 
     public static List<Movie> getAllMovies() {

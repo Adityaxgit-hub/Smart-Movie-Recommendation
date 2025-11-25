@@ -2,14 +2,12 @@ package model;
 
 import java.util.*;
 
-// creates movie object that can be recommended to the user based on genre preference;
 public class Movie {
     private String title;
-    private List<String> genres;
+    private List<String> genres; //genres it belongs to;
     private double rating;
-    private String overview;
+    private String overview; //movie description;
 
-    // constructor to initialise movie data;
     public Movie(String title, List<String> genres, double rating, String overview) {
 
         this.title = title;
@@ -18,29 +16,28 @@ public class Movie {
         this.overview = overview;
     }
 
-    // gets complete details of the selected movie;
     public String getDetails() {
         return "Title:" + title + "\nGenres:" + genres + "\nRating:" + rating + "/10";
 
     }
 
-    // gets title alone;
     public String getTitle() {
         return title;
     }
 
-    // gets genres alone;
     public List<String> getgenres() {
         return genres;
     }
 
-    // gets rating alone;
     public double getRating() {
         return rating;
     }
 
-    // gets overview alone;
     public String getOverview() {
         return overview;
+    }
+    @Override
+    public String toString(){
+        return "Title: "+title+"| Genres: "+genres+"| Rating: "+rating+"| Overview: "+overview;
     }
 }

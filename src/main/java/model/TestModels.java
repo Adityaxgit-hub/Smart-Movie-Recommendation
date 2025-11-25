@@ -17,9 +17,9 @@ public class TestModels {
                 ),
                 Arrays.<String>asList(m1.getTitle()));
         // printing details of the models initialised prior;
-        System.out.println("Movie details: \n" + m1.getDetails());
+        System.out.println("Movie details: \n" + m1);
         System.out.println();
-        System.out.println("User details: \n" + u1.getDetails());
+        System.out.println("User details: \n" + u1);
         System.out.println();
     }
 }

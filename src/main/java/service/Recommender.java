@@ -46,9 +46,9 @@ public class Recommender {
     }
 
     return userScore.entrySet().stream()
-            .sorted(Map.Entry.<Movie, Double>comparingByValue().reversed())
-            .limit(5)
-            .map(Map.Entry::getKey)
-            .collect(Collectors.toList());
+                    .sorted(Map.Entry.<Movie, Double>comparingByValue().reversed())
+                    .limit(5)
+                    .map(Map.Entry::getKey)
+                    .collect(Collectors.toList());
 }
 }
