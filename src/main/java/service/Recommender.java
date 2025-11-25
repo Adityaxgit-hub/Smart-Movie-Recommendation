@@ -5,7 +5,6 @@ import model.User;
 import java.util.*;
 import java.util.stream.Collectors;
 
-//Class that creates the recommender object that recommends users the movies available in the database on the basis of user's genre preferences;
 public class Recommender {
     //generates average matchScore of a movie(range: [1,10]);
     private double genreMatchScore(Movie movie,Map<String,Double> Ugenres){
