@@ -78,7 +78,11 @@ public class MainApp {
         catch (Exception e){
         System.out.println("Exception" +e.getMessage());
     }
+    finally{
+              sc.close();
+    }
 
     }
+  
 }
 
